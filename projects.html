@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="projectsStyle.css"/>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+            rel="stylesheet"
+    />
+    <title>Projects</title>
+</head>
+<body>
+<div class="container pt-5 ">
+    <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+            <h style="color:#4d4d4d;font-size:35px;"><b>Haritha Gnanasegar</b></h>
+        </div>
+    </div>
+    <div class="container pt-0">
+        <div class="row">
+            <h style="color:#4d4d4d;font-size:20px;">Student/Software Developer</h>
+        </div>
+    </div>
+</div>
+<div class="container pt-4 text-center">
+    <div class="row">
+        <div class="col-3 ">
+            <a href="index.html" class="text-dark navigation-link1">About</a>
+        </div>
+        <div class="col-3">
+            <a href="resume.html" class="text-dark navigation-link2">Resume</a>
+        </div>
+        <div class="col-3">
+            <a href="projects.html" class="text-dark navigation-link3">Projects</a>
+        </div>
+        <div class="col-3">
+            <a href="interests.html" class="text-dark navigation-link4">Interests</a>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="container">
+        <div class="col-6">
+            <div style="color:#4d4d4d;font-size:80px;margin-left:0;font-family:noticia-text;" class="pt-3">
+                PROJECTS
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main-container">
+        <hr style="height: 1px;width:100%;text-align:left;margin-left:15px; margin-right:100px; color:black;background-color:black;margin-top: auto">
+        <div class="row">
+            <div class="col-6 pb-3">
+                <div style="margin-left: 15px; align-content: center" >
+                    <br>
+                    <img src="/personalWebsite/images/chart.png" width = "491" height="295" alt="Logo here">
+                </div>
+            </div>
+            <div class="col-6 pb-3">
+                <div class="row">
+                    <div style="margin-left: 15px; align-content: center" class="circle text-center pt-5 pb-5">
+                        Elderly Care Home |01
+                    </div>
+                </div>
+                <div class="row pl-4 pt-4">
+                    In a team of 3, we designed a grocery ordering application for elderly care home. The users interact with a web UI and
+                    generate their order using voice commands. The application recites the order and the quantity before storing in MongoDB.
+                    The completed list is sent to the Wegman's API and the final cost is displayed along with the order list.
+                    I implemented the voice commands and recitation of the order using Microsoft Azure Speech to Text and Text to Speech API's.
+                    The application is supported by RESTful API and programmed in python.
+                </div>
+            </div>
+        </div>
+        <hr style="height: 1px;width:100%;text-align:left;margin-left:15px; margin-right:100px; color:black;background-color:black;margin-top: auto">
+        <div class="row">
+            <div class="col-6 pb-3">
+                <div style="margin-left: 15px; align-content: center" >
+                    <br> <br>
+                    <img src="/personalWebsite/images/cloak.png" width = "491" height="295" alt="Logo here">
+                </div>
+            </div>
+            <div class="col-6 pb-3">
+                <div class="row">
+                    <div style="margin-left: 15px; align-content: center" class="circle pt-5 pb-5">
+                        Invisible <br> Cloak |02
+                    </div>
+                </div>
+                <div class="row pl-4 pt-1">
+                    In a team of 3, we simulated the popular Harry Potter's invisible cloak experience. The project uses Python and OpenCV functions to
+                    achieve the invisibility effect. In the project we used a green screen as our cloak and studies the effect of invisibility on different
+                    light settings: white light, yellow light and natural light. By conducting 3 trials of the experiment with the 3 light settings we studied
+                    white light produces the most effective invisibility cloak and natural produces the worst effect. The yellow light was in the middle. I was
+                    responsible of the quantitative and qualitative analysis of the experiment. For the quantitative analysis the number of green pixels in the
+                    image after the invisibility was calculated and for the qualitative analysis the various images was studied.
+                </div>
+            </div>
+        </div>
+        <hr style="height: 1px;width:100%;text-align:left;margin-left:15px; margin-right:100px; color:black;background-color:black;margin-top: auto">
+        <div class="row">
+            <div class="col-6 pb-3">
+                <div style="margin-left: 15px; align-content: center" >
+                    <br><br>
+                    <img src="/personalWebsite/images/bowl.png" width = "491" height="295" alt="Logo here">
+                </div>
+            </div>
+            <div class="col-6 pb-3">
+                <div class="row">
+                    <div style="margin-left: 15px; align-content: center" class="circle pt-5 pb-5">
+                        Bowling <br> Alley |03
+                    </div>
+                </div>
+                <div class="row pl-4 pt-1">
+                    I implemented the Target Bowling Alley game on a TI-MSP432 board using C language. The game takes user inputs from the push button and joysticks and the
+                    buzzer and LCD screen are used for the game outputs. With the help of Analog-to-Digital converter the joystick interfaces with timers to generate a PWM signal.
+                    and interfaces with the Buzzer. The game is implemented using 2 finite state machines. The user chooses from an menu: 'How to Play', 'High scores', and 'Play Game'.
+                    In the game, the user gets 10 throws of the ball and for each attempt a random pin is generated. The user can move the bowling ball left-right, vary the force at which the
+                    ball is thrown and also bowl the ball at 7 different angles. The game also implements the effect of gutter like as actual game of bowling, if the
+                    ball were to go off the lanes. <a href="https://github.com/aghari19/Target_Bowling_Alley_Game" target="_blank">SourceCode </a>
+                </div>
+            </div>
+        </div>
+        <hr style="height: 1px;width:100%;text-align:left;margin-left:15px; margin-right:100px; color:black;background-color:black;margin-top: auto">
+        <div class="row">
+            <div class="col-6 pb-3">
+                <div style="margin-left: 15px; align-content: center" >
+                    <br><br><br>
+                    <img src="/personalWebsite/images/farm.jpeg" width = "491" height="295" alt="Logo here">
+                </div>
+            </div>
+            <div class="col-6 pb-3">
+                <div class="row">
+                    <div style="margin-left: 15px; align-content: center" class="circle pt-5 pb-5">
+                        Farm <br> Ville |04
+                    </div>
+                </div>
+                <div class="row pl-4 pt-1">
+                    I implemented the FarmVille Game on a TI-MSP432 board using C language. The game takes user inputs from keyboard through UART connection and the
+                    LCD screen is used for the outputs. MobaXTerm was used to interface the keyboard and the board and the game implemented using FSM. In the game, the farm as a whole has Money, Farm
+                    health and Time that will be displayed on the LCD. The individual plots have Age, Health and Hydration that corresponds to the stats of the plot's crop.
+                    The user interacts with the plots using the keyboard. As time passes the crop mature(identified using graphical changes) the user tends to them,
+                    waters them and harvests them. The unit of Time for the farm is one month, which for the game is spefic secnds that varies on difficulty.
+                    <a href="https://github.com/aghari19/Farmville" target="_blank">SourceCode </a>
+                </div>
+            </div>
+        </div>
+        <hr style="height: 1px;width:100%;text-align:left;margin-left:15px; margin-right:100px; color:black;background-color:black;margin-top: auto">
+        <div style="font-size: 17px" class="row">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you'd like to get to know me more reach out at &nbsp;: aghari19@vt.edu
+        </div>
+    </div>
+    </div>
+</body>
+</html>

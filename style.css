@@ -1,0 +1,160 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eae5e5;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link1 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link1:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link2 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link2:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link3 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link3:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link4 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link4:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+/* Main Container height*/
+.main-container {
+  height: 100vh;
+    width: 120vh;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+/*!* Changing Name Font sixe *!*/
+.main_row h1 {
+  font-size: 5rem;
+  color: #4d4d4d;
+}
+
+.main_row h3 {
+  font-weight: normal;
+  color: #4d4d4d;
+}
+
+.main_row p{
+  display: flex;
+  font-size: 1rem;
+  color: #4d4d4d;
+  text-align: center;
+}
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 30rem;
+}
+
+.round-button1 {
+    display:flex;
+    width:120px;
+    height:120px;
+    line-height:80px;
+    border-radius: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    text-align:center;
+    text-decoration:none;
+    background: #ac9eb2;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+}
+.round-button1:hover {
+    background: #817685;
+}
+
+.round-button2 {
+    display:flex;
+    width:120px;
+    height:120px;
+    line-height:80px;
+    border-radius: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    text-align:center;
+    text-decoration:none;
+    background: #d1c926;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+}
+.round-button2:hover {
+    background: #8b8619;
+}
+
+.round-button3 {
+    display:flex;
+    width:120px;
+    height:120px;
+    line-height:80px;
+    border-radius: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    text-align:center;
+    text-decoration:none;
+    background: #a9d1b2;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+}
+.round-button3:hover {
+    background: #7f9d86;
+}
+

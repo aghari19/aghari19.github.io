@@ -1,0 +1,89 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eae5e5;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link1 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link1:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link2 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link2:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link3 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link3:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.navigation-link4 {
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.navigation-link4:hover {
+  text-decoration: none;
+  transition: 0.5s ease;
+  border-bottom: 2px solid black;
+}
+
+.main-container {
+  height: 100vh;
+    width: 120vh;
+}
+
+.rectangle {
+  width: 491px;
+  height: 286px;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  background: #d1c926;
+
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  background: #d1c926;
+
+}
